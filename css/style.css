@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+ 
+    font-family: monospace;
+}
+/* global css code start */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-lg-12{
+    width: 100%;
+    float: left;
+}
+.logo{
+    width: 100%;
+    float: left;
+}
+.col-lg-4{
+    width: 33.33%;
+    float: left;
+}
+.col-lg-6{
+    width: 50%;
+    float: left;
+}
+.text-right{
+    text-align: right;
+}
+/* global css end */
+
+/* header section start */
+.header-section{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background-color:#f6f9f9;
+}
+.logo{
+    width: 100%;
+    float: left;
+}
+/* header section end */
+
+/* banner section code start */
+.banner{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background: url("../images/b.png") center top no-repeat;
+    background-size: cover;    
+}
+.inner-banner{
+    width: 100%;
+    float:left;
+    text-align: center;
+}
+.inner-banner h1{
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.divider{
+    width: 40%;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #15a4fa;
+}
+.inner-banner p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.inner-banner .btn-info{
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: 1px solid #0099ff;
+    background: transparent;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 1s;
+   
+}
+.inner-banner .btn-info:hover{
+    border: 1px solid #0099ff;
+    background: #0099ff;
+    color:black;
+    
+}
+.banner .arrow{
+    width: 100%;
+    float:left;
+    padding:60px 0px ;
+    text-align: center;
+    margin-top: 40px;
+}
+/* banner section code end */
+
+/* Simple and pure-section code start */
+.simple-pure{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background:#f6f9f9;
+    text-align: center;
+}
+.simple-pure h1{
+    font-size: 42px;
+    line-height: 52px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.simple-pure p{
+    width: 70%;
+    margin:auto;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;   
+}
+/* Simple and pure-section code end */
+
+/* feature-section code start */
+.feature{
+    width: 100%;
+    float:left;
+    padding: 80px 0px;
+}
+.feature .inner-feature{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.feature .inner-feature img{
+    margin-bottom: 10px;
+    
+}
+.feature .inner-feature h4{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.feature .inner-feature p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999; 
+}
+/* feature-section code end */
+
+/* portfolio-section code start */
+
+.portfolio{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background:#f6f9f9 ;
+    text-align: center;
+}
+.portfolio h1{
+    font-size: 42px;
+    line-height: 52px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.portfolio p{
+    width: 70%;
+    margin:auto;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 60px; 
+}
+.inner-portfolio{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 12px;
+    
+}
+.inner-portfolio .port-hover{
+    width:95.5%;
+    height: 97.5%;
+    top:0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    background: rgba(51,153,255,0.8);
+    cursor: pointer;
+    display: none;
+}
+.port-hover .icon{
+    width: 100%;
+    position: relative;
+    top: 45%;
+    left: 1%;
+    display: block;
+}
+.port-hover .icon img{
+    margin-right: 5px;
+}
+.inner-portfolio:hover .port-hover{
+    display: block;
+}
+/* portfolio-section code end */
+
+/* contact-section code start */
+
+.contact{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background: url(../images/bac.png) center top no-repeat ;
+    background-size: cover;
+}
+
+.contact h1{
+    font-size: 42px;
+    line-height: 52px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact p{
+    width: 70%;
+    margin:auto;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 20px; 
+}
+.contact-form{
+    width:50%;
+    margin: 40px auto 0px;
+}
+.contact-form .form-group{
+    width: 100%;
+    float: left;
+    margin:10px;
+}
+.contact-form .form-group .form-control{
+    width: 95%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    columns: #999999;
+    color: #fff;
+}
+.contact-form .form-group span{
+    margin-left: 10px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.form-group .form-email{
+    text-transform: lowercase;
+}
+.btn-info{
+    padding: 10px 35px;
+    background: transparent;
+    border: 1px solid #0099ff ;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 1s;
+}
+.btn-info:hover{
+    background: #000000;
+    cursor: pointer;
+}
+/* contact-section code end */
+
+/* footer-section code start */
+.footer{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+.footer p{
+    
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    margin-top: 10px; 
+}
+.social-icons {
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.social-icons li{
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: blue;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    color:yellow ;  
+    transition: 1s;
+    margin: 0px 3px;  
+}
+.social-icons li:hover{
+    background: white;
+    cursor: pointer;
+}
+/* footer-section code end */
